@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+.inicioHeader {
+    font-weight: bold;
+    font-size: 2.3rem;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+nav {
+width: 40vw;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1.5rem;
+}
+.palavra {
+    font-weight: bold;
+}
+.laranja {
+    width: 100vw;
+}
+.titulo {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 22rem;
+    left: 6rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.subtitulo {
+    color: #ffffff;
+    font-size: 2rem;
+    position: relative;
+    bottom: 19rem;
+    left: 6.5rem;
+    font-weight: 100;
+}
