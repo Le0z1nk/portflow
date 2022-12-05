@@ -67,44 +67,106 @@ font-size: 1.4rem;
     font-size: 2.1rem;
 }
 .linha1 {
-    display: flex;
+  display: flex;
+  justify-content: space-evenly;  
 }
 .imagens1 {
     width: 21vw;
-    margin-left: 1.5rem;
 }
 .imagens1:hover {
-    width: 21.1rem;
+    width: 22vw;
 }
 .linha2 {
     display: flex;
+    justify-content: space-evenly;
 }
 .imagens2 {
     width: 21vw;
-    margin-left: 1.7rem;
-    margin-top: 0.7rem;
+    margin-top: 1rem;
 }
 .imagens2:hover {
-    width: 21.1rem;
+    width: 22vw;
 }
 .linha3 {
     display: flex;
+    justify-content: space-evenly;
 }
 .imagens3 {
  width: 21vw;
- margin-left: 1.7rem;
- margin-top: 0.7rem;
+ margin-top: 1rem;
 }
 .imagens3:hover {
-    width: 21.1rem;
+    width: 22vw;
 }
 footer {
     margin-top: 1rem;
+    width: 100%;
+}
+.final {
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright {
+font-weight: bold;
+font-size: 20px;
+}
+.letrinhas {
+    font-size: 15px;
+}
+.letrinas2 {
+    font-size: 15px;
+    margin-left: 46rem;
 }
 
-@media (min-width: 201px) and (max-width: 500px){  
-    .laranja {
-        width: 500px;
-        height: 500px;
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 201px) and (max-width: 500px){ 
+    header {
+        display: flex;
+        justify-content: center;
     }
-  }
+    nav {
+        display: none;
+    }
+    .laranja {
+        width: 450px;
+        height: 500px;
+        margin-top: 3rem;;
+    }
+    .titulo {
+        position: relative;
+        right: 3rem;
+        bottom: 16rem;
+       font-size: 3rem;
+    }
+    .subtitulo {
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        position: relative;
+        right: 3rem;
+    }
+    .subtitulo:hover {
+        font-size: 1.6rem;
+    }
+    .linha1, .linha2, .linha3 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagens1, .imagens2, .imagens3 {
+        width: 70vw;
+        position: relative;
+        bottom: 10rem;
+    }
+    .imagens1:hover, .imagens2:hover, .imagens3:hover {
+        width: 73vw;
+    }
+ }
