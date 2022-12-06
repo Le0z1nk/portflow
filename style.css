@@ -7,14 +7,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+   width: 100%;
     height: 20vh;
     background-color: #ffffff;
     position: fixed;
 }
 p {
     font-family: 'Montserrat', sans-serif;
-}
+ }
 .inicioHeader {
     font-weight: bold;
     font-size: 2.3rem;
@@ -44,20 +44,20 @@ font-size: 1.4rem;
 font-size: 1.4rem;
 }
 .laranja {
-    width: 100vw;
+    width: 98vw;
 }
 .titulo {
-    font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
     position: relative;
     bottom: 22rem;
     margin-left: 6rem;
-    color: #ffffff;
     font-weight: bold;
 }
 .subtitulo {
-    color: #ffffff;
     font-size: 2rem;
+    color: #ffffff;
     position: relative;
     bottom: 19rem;
     margin-left: 6.5rem;
@@ -113,7 +113,7 @@ font-size: 20px;
 .letrinhas {
     font-size: 15px;
 }
-.letrinas2 {
+.letrinhas2 {
     font-size: 15px;
     margin-left: 46rem;
 }
@@ -133,6 +133,12 @@ font-size: 20px;
     header {
         display: flex;
         justify-content: center;
+        align-items: center;
+        position: static;
+        height: 1vh;
+    }
+    .inicioHeader {
+        font-size: 2rem; 
     }
     nav {
         display: none;
@@ -140,7 +146,7 @@ font-size: 20px;
     .laranja {
         width: 450px;
         height: 500px;
-        margin-top: 3rem;;
+        margin-top: 3rem;
     }
     .titulo {
         position: relative;
@@ -150,7 +156,7 @@ font-size: 20px;
     }
     .subtitulo {
         font-size: 1.5rem;
-        margin-top: 3rem;
+        margin-top: 4rem;
         position: relative;
         right: 3rem;
     }
@@ -162,11 +168,23 @@ font-size: 20px;
         align-items: center;
     }
     .imagens1, .imagens2, .imagens3 {
-        width: 70vw;
-        position: relative;
-        bottom: 10rem;
+        width: 85vw;
+       
     }
     .imagens1:hover, .imagens2:hover, .imagens3:hover {
-        width: 73vw;
+        width: 88vw;
     }
+    .final {
+        display: block;
+    }
+    .apps {
+        width: 90vw;
+     height: 10vh;
+       background-color: #7fdbd4;
+       margin-left: 1rem;
+    }
+    .copyright, .letrinhas, .letrinhas2 {
+        margin-left: 1rem;
+    }
+    
  }
