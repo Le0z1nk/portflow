@@ -16,10 +16,9 @@ p {
     font-family: 'Montserrat', sans-serif;
  }
  .hamburger {
-    width: 5vw;
-    height: 5vh;
-    color: #ffffff;
-    background-color: #0c0500;
+    color: #0c0500;
+    background-color: #ffffff;
+    border: none;
     display: none;
  }
  
@@ -83,10 +82,10 @@ transition: 0.5s;
 }
 .imagens1 {
     width: 21vw;
+    transition: 0.4s;
 }
 .imagens1:hover {
-    width: 22vw;
-    transition: 0.4s;
+    transform: scale(1.1);
 }
 .linha2 {
     display: flex;
@@ -95,10 +94,10 @@ transition: 0.5s;
 .imagens2 {
     width: 21vw;
     margin-top: 1rem;
+    transition: 0.4s;
 }
 .imagens2:hover {
-    width: 22vw;
-    transition: 0.4s;
+    transform: scale(1.1);
 }
 .linha3 {
     display: flex;
@@ -107,10 +106,10 @@ transition: 0.5s;
 .imagens3 {
  width: 21vw;
  margin-top: 1rem;
+ transition: 0.4s;
 }
 .imagens3:hover {
-    width: 22vw;
-    transition: 0.4s;
+    transform: scale(1.1);
 }
 footer {
     margin-top: 1rem;
@@ -168,8 +167,8 @@ font-size: 20px;
         display: flex;
         width: 20vw;
         height: 7vh;
-        font-size: 1.5rem;
-        padding-left: 1.3rem;
+        font-size: 3rem;
+       
     }
     .inicioHeader {
         font-size: 2rem; 
